@@ -88,7 +88,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline100"
         app:layout_constraintTop_toTopOf="@+id/top_guideline"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline20"
-        app:srcCompat="@android:color/holo_blue_dark" />
+        app:srcCompat="@android:color/holo_blue_dark"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/name_scene_1"
@@ -98,7 +99,8 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@id/scene_1" />
+        app:layout_constraintBottom_toBottomOf="@id/scene_1"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/artist_scene_1"
@@ -116,7 +118,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline75"
         app:layout_constraintStart_toEndOf="@+id/left_guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/scene_1" />
+        app:layout_constraintTop_toTopOf="@id/scene_1"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/time_scene_1"
@@ -129,7 +132,8 @@
         app:layout_constraintTop_toTopOf="@id/scene_1"
         app:layout_constraintBottom_toTopOf="@+id/name_scene_1"
         app:layout_constraintRight_toRightOf="@+id/right_guideline95"
-        app:layout_constraintStart_toEndOf="@+id/right_guideline75" />
+        app:layout_constraintStart_toEndOf="@+id/right_guideline75"
+        android:onClick="showScene"/>
 
     <!-- Second view -->
     <ImageView
@@ -140,7 +144,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline100"
         app:layout_constraintTop_toBottomOf="@+id/scene_1"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline40"
-        app:srcCompat="@android:color/holo_green_dark" />
+        app:srcCompat="@android:color/holo_green_dark"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/name_scene_2"
@@ -150,7 +155,8 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@id/scene_2" />
+        app:layout_constraintBottom_toBottomOf="@id/scene_2"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/artist_scene_2"
@@ -168,7 +174,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline75"
         app:layout_constraintStart_toEndOf="@+id/left_guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/scene_2" />
+        app:layout_constraintTop_toTopOf="@id/scene_2"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/time_scene_2"
@@ -181,7 +188,8 @@
         app:layout_constraintTop_toTopOf="@id/scene_2"
         app:layout_constraintBottom_toTopOf="@+id/name_scene_2"
         app:layout_constraintRight_toRightOf="@+id/right_guideline95"
-        app:layout_constraintStart_toEndOf="@+id/right_guideline75" />
+        app:layout_constraintStart_toEndOf="@+id/right_guideline75"
+        android:onClick="showScene"/>
 
     <!-- Third view -->
     <ImageView
@@ -192,7 +200,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline100"
         app:layout_constraintTop_toBottomOf="@+id/scene_2"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline60"
-        app:srcCompat="@android:color/holo_orange_dark" />
+        app:srcCompat="@android:color/holo_orange_dark"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/name_scene_3"
@@ -202,7 +211,8 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@id/scene_3" />
+        app:layout_constraintBottom_toBottomOf="@id/scene_3"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/artist_scene_3"
@@ -220,7 +230,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline75"
         app:layout_constraintStart_toEndOf="@+id/left_guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/scene_3" />
+        app:layout_constraintTop_toTopOf="@id/scene_3"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/time_scene_3"
@@ -233,7 +244,8 @@
         app:layout_constraintTop_toTopOf="@id/scene_3"
         app:layout_constraintBottom_toTopOf="@+id/name_scene_3"
         app:layout_constraintRight_toRightOf="@+id/right_guideline95"
-        app:layout_constraintStart_toEndOf="@+id/right_guideline75" />
+        app:layout_constraintStart_toEndOf="@+id/right_guideline75"
+        android:onClick="showScene"/>
 
     <!-- Fourth view -->
     <ImageView
@@ -244,7 +256,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline100"
         app:layout_constraintTop_toBottomOf="@+id/scene_3"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline80"
-        app:srcCompat="@android:color/darker_gray" />
+        app:srcCompat="@android:color/darker_gray"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/name_scene_4"
@@ -254,7 +267,8 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@id/scene_4" />
+        app:layout_constraintBottom_toBottomOf="@id/scene_4"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/artist_scene_4"
@@ -272,7 +286,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline75"
         app:layout_constraintStart_toEndOf="@+id/left_guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/scene_4" />
+        app:layout_constraintTop_toTopOf="@id/scene_4"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/time_scene_4"
@@ -285,7 +300,8 @@
         app:layout_constraintTop_toTopOf="@id/scene_4"
         app:layout_constraintBottom_toTopOf="@+id/name_scene_4"
         app:layout_constraintRight_toRightOf="@+id/right_guideline95"
-        app:layout_constraintStart_toEndOf="@+id/right_guideline75" />
+        app:layout_constraintStart_toEndOf="@+id/right_guideline75"
+        android:onClick="showScene"/>
 
 
     <!-- Fifth view -->
@@ -297,7 +313,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline100"
         app:layout_constraintTop_toBottomOf="@+id/scene_4"
         app:layout_constraintBottom_toBottomOf="@+id/bottom_guideline100"
-        app:srcCompat="@android:color/holo_red_light" />
+        app:srcCompat="@android:color/holo_red_light"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/name_scene_5"
@@ -307,7 +324,8 @@
         android:textAlignment="center"
         android:textSize="24sp"
         android:layout_marginBottom="10dp"
-        app:layout_constraintBottom_toBottomOf="@id/scene_5" />
+        app:layout_constraintBottom_toBottomOf="@id/scene_5"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/artist_scene_5"
@@ -325,7 +343,8 @@
         app:layout_constraintRight_toRightOf="@+id/right_guideline75"
         app:layout_constraintStart_toEndOf="@+id/left_guideline"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@id/scene_5" />
+        app:layout_constraintTop_toTopOf="@id/scene_5"
+        android:onClick="showScene"/>
 
     <TextView
         android:id="@+id/time_scene_5"
@@ -338,6 +357,7 @@
         app:layout_constraintTop_toTopOf="@id/scene_5"
         app:layout_constraintBottom_toTopOf="@+id/name_scene_5"
         app:layout_constraintRight_toRightOf="@+id/right_guideline95"
-        app:layout_constraintStart_toEndOf="@+id/right_guideline75" />
+        app:layout_constraintStart_toEndOf="@+id/right_guideline75"
+        android:onClick="showScene"/>
 
 </android.support.constraint.ConstraintLayout>
